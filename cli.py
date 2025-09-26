@@ -1,6 +1,6 @@
 # semantic_search/cli.py
 import argparse
-from semantic_search.core import SemanticSearch
+from app.core import SemanticSearch
 from PyPDF2 import PdfReader
 
 

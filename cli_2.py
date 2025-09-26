@@ -8,7 +8,7 @@ except LookupError:
     nltk.download('punkt', quiet=True)
 
 import argparse
-from semantic_search.core_2 import SemanticSearchAdvanced
+from app.core_2 import SemanticSearchAdvanced
 import os
 import glob
 

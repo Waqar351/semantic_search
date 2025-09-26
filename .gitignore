@@ -1,0 +1,83 @@
+# --------------------
+# Python
+# --------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+*.egg
+*.log
+
+# --------------------
+# Virtual Environments
+# --------------------
+.venv/
+env/
+venv/
+ENV/
+.conda/
+
+# Poetry specific
+.poetry/
+
+# --------------------
+# IDE / Editor
+# --------------------
+.vscode/
+.idea/
+*.swp
+*~
+
+# --------------------
+# OS-specific
+# --------------------
+.DS_Store
+Thumbs.db
+
+# --------------------
+# Project data
+# --------------------
+# PDF and other uploaded documents (user content)
+uploads/
+data/
+*.pdf
+
+# Index files (FAISS or other embeddings) – large, generated
+*.index
+*.faiss
+*.h5
+*.bin
+*.npy
+*.pkl
+
+# Cache and checkpoints
+cache/
+checkpoints/
+tmp/
+*.tmp
+
+# --------------------
+# Reports / notebooks
+# --------------------
+*.ipynb_checkpoints/
+*.out
+*.pdf
+*.docx
+
+# --------------------
+# Build / dist
+# --------------------
+dist/
+build/
+*.tar.gz
+*.whl
+
+# --------------------
+# Secrets / configs
+# --------------------
+.env
+*.key
+*.crt
+*.pem
